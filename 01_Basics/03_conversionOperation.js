@@ -28,5 +28,15 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 
 let randomNumber = 98
 let stringNumber = String(randomNumber)
-console.log(typeof stringNumber);
-console.log(stringNumber);
+// console.log(typeof stringNumber);
+// console.log(stringNumber);
+
+console.log(+true);
+console.log(+"");
+
+let x = 3;
+let y = 6;
+
+console.log(x << y);
+console.log(x << x);
+console.log(y << x);
