@@ -18,3 +18,16 @@ console.log(bigNumber);
 /*  Reference Datatype (Non Primitive)
     Array[], Objects{}, Functions()
 */
+
+const heroes = ["Garp", "Koby", "Shanks", "Ichigo"]
+let myObj = {
+    Name: "Aniket",
+    age: 20,
+    gender: "male"
+}
+
+const myFunction = function () {
+    console.log("Hello World");
+}
+
+console.log(typeof myFunction);
