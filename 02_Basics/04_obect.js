@@ -60,3 +60,4 @@ console.log(Object.entries(tinderUser)); // both key and value pairs
 
 console.log(tinderUser.hasOwnProperty("isLogged")); // Checks the property's existence 
 
+// 
