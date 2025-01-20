@@ -52,12 +52,33 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser)); // both key and value pairs 
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser)); // both key and value pairs 
 
-console.log(tinderUser.hasOwnProperty("isLogged")); // Checks the property's existence 
+// console.log(tinderUser.hasOwnProperty("isLogged")); // Checks the property's existence 
 
-// 
+// Singleton using constructor
+
+const course = {
+    coursename: "js in English",
+    price: "999",
+    courseInstructor: "Aniket"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+
+console.log(instructor);
+
+const navbar = () => {
+
+
+}
+
+navbar()
