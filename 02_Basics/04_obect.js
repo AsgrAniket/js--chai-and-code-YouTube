@@ -83,6 +83,12 @@ const navbar = () => {
 
 navbar()
 
+// {  // JSON example
+//     "name": "Hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
 // Random user API 
  {
         "results": [

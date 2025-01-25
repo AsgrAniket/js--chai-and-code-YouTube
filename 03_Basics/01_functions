@@ -1,0 +1,23 @@
+function sayMyName() {
+    console.log("A");
+    console.log("N");
+    console.log("I");
+    console.log("K");
+    console.log("E");
+    console.log("T");
+}
+
+sayMyName()  // function call
+
+sayMyName // it wont work without paraenthesis 
+
+function addTwoNumbers(number1, number2) {
+    console.log(number1 + number2);
+
+}
+
+addTwoNumbers(2, 3)
+addTwoNumbers(2, null)
+addTwoNumbers(2, undefined)
+addTwoNumbers(2, "3")
+addTwoNumbers(2, "a")
