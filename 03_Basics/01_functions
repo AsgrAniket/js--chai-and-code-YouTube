@@ -7,17 +7,40 @@ function sayMyName() {
     console.log("T");
 }
 
-sayMyName()  // function call
+// sayMyName()  // function call
 
-sayMyName // it wont work without paraenthesis 
+// sayMyName // it wont work without paraenthesis 
+
+// function addTwoNumbers(number1, number2) {
+//     console.log(number1 + number2);
+
+// }
+
+// addTwoNumbers(2, 3)
+// addTwoNumbers(2, null)
+// addTwoNumbers(2, undefined)
+// addTwoNumbers(2, "3")
+// addTwoNumbers(2, "a")
 
 function addTwoNumbers(number1, number2) {
-    console.log(number1 + number2);
-
+    let result = number1 + number2
+    console.log("Aniket") 
+    return  result          // after return statement nothing will appear
+   
 }
 
-addTwoNumbers(2, 3)
-addTwoNumbers(2, null)
-addTwoNumbers(2, undefined)
-addTwoNumbers(2, "3")
-addTwoNumbers(2, "a")
+const result = addTwoNumbers(5, 10)
+
+console.log("Result: ", result);
+
+function loginUserMessage (username = "Rocks") {
+    if (!username) {                    // Same as username === Undefined
+        console.log(`Please enter a username`);
+        return   
+    }
+    return `${username} just logged in`
+}
+
+// console.log(loginUserMessage("Aniket"));
+console.log(loginUserMessage());   // Default string will show up (Rocks)
+
