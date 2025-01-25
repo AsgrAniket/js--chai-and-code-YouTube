@@ -84,8 +84,7 @@ const navbar = () => {
 navbar()
 
 // Random user API 
-{
-    {
+ {
         "results": [
           {
             "gender": "female",
@@ -150,5 +149,4 @@ navbar()
           "page": 1,
           "version": "1.4"
         }
-      }
-}
+ }
