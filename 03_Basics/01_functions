@@ -31,7 +31,7 @@ function addTwoNumbers(number1, number2) {
 
 const result = addTwoNumbers(5, 10)
 
-console.log("Result: ", result);
+// console.log("Result: ", result);
 
 function loginUserMessage (username = "Rocks") {
     if (!username) {                    // Same as username === Undefined
@@ -42,5 +42,35 @@ function loginUserMessage (username = "Rocks") {
 }
 
 // console.log(loginUserMessage("Aniket"));
-console.log(loginUserMessage());   // Default string will show up (Rocks)
+// console.log(loginUserMessage());   // Default string will show up (Rocks)
 
+function calculatecartPrice(val1, val2, ...num1){   // ...variable is used as SPREAD AND REST operator 
+    return num1
+}
+
+// console.log(calculatecartPrice(200, 384, 284, 3000, 67))
+
+const user = {
+    username: "Aniket",
+    price: "399"
+}
+
+
+function handleobject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+// handleobject(user)
+handleobject({
+    username: "shanks",
+    price: "999"
+})
+
+const myNewArray = [100, 394, 430, 700]
+
+function returnSecondValue (getArray){
+    return getArray[1]
+}
+
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([20, 90, 3003, 2000]));
