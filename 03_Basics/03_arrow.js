@@ -32,6 +32,4 @@ const Asgr2 = (num1, num2) => ({username: "Aniket"})
 console.log(Asgr2(3, 4));
 
 // const myArray = [1, 3, 4, 5, 6]
-// myArray = .array.forEach(element => {
-    
-// });
+// myArray = .array.forEach(() => {})
