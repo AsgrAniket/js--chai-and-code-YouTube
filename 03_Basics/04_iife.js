@@ -6,7 +6,7 @@
 }); // semi colon for multiple usage of IIFE to end previous IIFE
 
 
-(function Aniket() {
+(function OnePiece() {
     console.log(`DB CONNECTED TWICE`);
 })();
 
